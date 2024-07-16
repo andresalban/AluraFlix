@@ -1,0 +1,51 @@
+.capa {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gradient {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.titulo {
+    width: 190px;
+    border-radius: 15px;
+    margin-left: 80px;
+    color: var(--white);
+    padding: 0.5em;
+    background: var(--fronEnd);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subtitulo {
+    width: 190px;
+    border-radius: 15px;
+    margin-left: 80px;
+    color: var(--white);
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.descripcion {
+    width: 500px;
+    border-radius: 15px;
+    margin-left: 80px;
+    color: var(--white);
+    font-weight: 400;
+}
+
+

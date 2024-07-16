@@ -1,0 +1,14 @@
+.link {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0.2em;
+    padding: 0.4em;
+    color: var(--white);
+    border-radius: 0.5em;
+    border: 1px solid var(--white);
+}
+
+.link:hover {
+    color: var(--blue);
+    border: 1px solid var(--blue);
+}

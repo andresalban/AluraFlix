@@ -1,13 +1,25 @@
+:root {
+  --font: "Outfit", sans-serif;
+
+  --darkgray: #262626;
+  --blue: #2271D1;
+  --white: #FEFFFA;
+  --black: #131E29;
+  --gray: #E2E2E2;
+
+  --fronEnd: #6BD1FF;
+  --backEnd: #00C86F;
+  --inoGes: #FFBA05;
+
+
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: var(--font);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
+
+
