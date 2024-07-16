@@ -1,0 +1,40 @@
+
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+
+
+}
+
+.imagen {
+    border-radius: 1em 1em 0px 0px;
+    width: 100%;
+
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    border-radius: 0px 0px 1em 1em;
+
+
+}
+
+.footer p {
+    color: var(--white);
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.footer img{
+    width: 20px;
+}

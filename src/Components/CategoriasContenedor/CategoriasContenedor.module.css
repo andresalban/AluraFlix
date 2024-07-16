@@ -1,0 +1,23 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--darkgray);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.titulos {
+    width: 190px;
+    border-radius: 15px;
+
+    color: var(--white);
+    padding: 0.5em;
+    background: var(--fronEnd);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.tarjetas {
+    display: flex;
+    flex-direction: row;
+}
